@@ -1,0 +1,273 @@
+
+
+
+
+
+
+/* CSS for All*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%
+}
+.img-responsive{
+    width: 95%;
+}
+.img.curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: rgb(160, 93, 93);
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: rgb(165, 104, 104);
+    text-decoration: none;
+}
+:hover{
+    color: red4;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color:rgb(0, 0, 0);
+    background-color:red;
+}
+h2{
+    color: rgb(82, 74, 148);
+    font-size: 2rem;
+    margin-bottom: 2%;
+    font-style: oblique;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid rgb(183, 107, 107);
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/*CSS for navbar section*/
+
+.navbar{
+    background-color: rgba(255, 216, 98, 0.395);
+}
+
+.logo{
+    width:  20%;
+    height: 15%;
+    float: left;
+}
+.menu{
+    line-height: 80px;
+    font-size: 25px;
+}
+.menu ul{
+    list-style-type: circle;
+}
+
+.menu ul li{
+    display: inline-flex;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+/*CSS for Web order makanan Section*/
+
+.food-search{
+    background-image: url(../Images/BG\ NEW\ LAST\ FIX\ NO\ DEBAT.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*CSS for Categories*/
+.categories{
+    background-color: rgba(255, 216, 98, 0.395);
+}
+
+.categories{
+    padding: 1% ;
+}
+
+.box-3{
+    width: 31%;
+    float: left;
+    margin: 1.1%;
+}
+
+
+/* CSS for food Menu*/
+.food-menu{
+    background-image: url(../Images/1000_F_182208077_IrP88qvJ9nyISVc9ZywPjd4q21ECU8oc.jpg) ;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 72%;
+    float:left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+    font-weight: bold;
+}
+.food-detail{
+    font-size: 1rem;
+    color: grey;
+    font-style: italic;
+}
+
+
+/*CSS for Social*/
+.social ul{
+    list-style-type: none;
+
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/*for Order Section*/
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 95%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+
+
+/*CSS for Mobile Size or Smaller Screen*/
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+    
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;   
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
